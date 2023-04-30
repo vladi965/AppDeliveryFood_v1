@@ -1,0 +1,72 @@
+import {COLOR} from './Colors';
+export const STYLES = {
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: COLOR.white,
+  },
+  indicator: {
+    height: 10,
+    width: 10,
+    borderRadius: 1000,
+    marginHorizontal: 5,
+    marginTop: 10,
+    backgroundColor: COLOR.grayDark,
+  },
+  btn: {
+    width: 50,
+    height: 50,
+    borderRadius: 50,
+    backgroundColor: COLOR.red,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imageBack: {
+    flex: 1,
+    justifyContent: 'center',
+    zIndex: 10,
+  },
+  contentBoxSlide: {
+    position: 'absolute',
+    width: '100%',
+    top: '63%',
+    left: 0,
+    height: '100%',
+  },
+  contentTitle: {
+    marginTop: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  btnStarted: {
+    flex: 1,
+    height: 25,
+    padding: 15,
+    borderRadius: 50,
+    backgroundColor: COLOR.red,
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: COLOR.white,
+  },
+  skip: {
+    marginTop: 18,
+  },
+  bottomCircleActive: {
+    display: 'block',
+    width: 6,
+    height: 6,
+    borderRadius: 150,
+    marginTop: 10,
+    backgroundColor: COLOR.red,
+  },
+  bottomCircleDisable: {
+    display: 'none',
+    width: 6,
+    height: 6,
+    borderRadius: 150,
+    marginTop: 10,
+    backgroundColor: COLOR.red,
+  },
+};
